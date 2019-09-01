@@ -1,0 +1,19 @@
+{
+  "name": "forsarahv2frontend",
+  "version": "2.0.0",
+  "description": "Front-end portion to the Full-Stack project for my Sarah to assist with her Real Estate work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parallelam/ForSarahv2.git"
+  },
+  "author": "weshatley@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parallelam/ForSarahv2/issues"
+  },
+  "homepage": "https://github.com/parallelam/ForSarahv2#readme"
+}
