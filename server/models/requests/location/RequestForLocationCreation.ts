@@ -1,43 +1,22 @@
 export default class RequestForLocationCreation {
-  public addressConcat!: string;
-  public mapQuestStreetAddress!: string;
-  public mapQuestNeighborhoodName?: string;
-  public mapQuestNeighborhoodType?: string;
-  public mapQuestMunicipalityName!: string;
-  public mapQuestMunicipalityType?: string;
-  public mapQuestCountyName!: string;
-  public mapQuestCountyType?: string;
-  public mapQuestState!: string;
-  public mapQuestPostalCode!: string;
-  public mapQuestLatitude!: number;
-  public mapQuestLongitude!: number;
-  public mapQuestImageMapUrl?: string;
-  public zPropertyId?: number;
-  public zRegionId?: number;
-  public zHomeDetails?: string;
-  public zGraphsAndData?: string;
-  public zMapThisHome?: string;
-  public zComparablesLink?: string;
-  public zFipsCountyCode?: number;
-  public zUseCode?: string;
-  public zTaxAssessment?: number;
-  public zYearBuilt?: number;
-  public zLotSizeSqft?: number;
-  public zFinishedSqft?: number;
-  public zBathrooms?: number;
-  public zBedrooms?: number;
-  public zTotalRooms?: number;
-  public zLastSold?: Date | string;
-  public zLastSoldPrice?: number;
-  public zEstimateAmount?: number;
-  public zEstimateLastUpdate?: Date | string;
-  public zEstimateValueLow?: number;
-  public zEstimateValueHigh?: number;
-  public zRentEstimateAmount?: number;
-  public zRentEstimateLastUpdate?: Date | string;
-  public zRentEstimateValueLow?: number;
-  public zRentEstimateValueHigh?: number;
-  public zComparables?: string[] | undefined;
-  public createdAt!: Date | string;
-  public createdBy!: string;
+  public streetAddress!: string;
+  public municipality!: string;
+  public state!: string;
+  constructor(RequestBody: any) {
+    this.streetAddress = RequestBody['streetAddress'];
+    this.municipality = RequestBody['municipality'];
+    this.state = RequestBody['state'];
+  }
+  public checkMongoForDuplicate() {}
+  public getMapQuestGeoCoding() {}
+  public getZillowChart() {}
+  public getZillowComps() {}
+  public getZillowDeepComps() {}
+  public getZillowDeepSearchResults() {}
+  public getZillowRegionChildren() {}
+  public getZillowSearchResults() {}
+  public getZillowUpdatedPropertyDetails() {}
+  public getZillowZestimate() {}
+  public createLocationObject() {}
+  public postLocationIntoMongo() {}
 }
