@@ -27,8 +27,10 @@
     "express": "^4.17.1",
     "express-validator": "^6.2.0",
     "http-errors": "^1.7.3",
+    "minimist": ">=0.2.1",
     "mongodb": "^3.3.2",
     "mongoose": "^5.7.5",
+    "mquery": ">=3.2.3",
     "mysql2": "^1.7.0",
     "node-zillow": "^2.0.0",
     "passport": "^0.4.0",
@@ -37,7 +39,8 @@
     "sequelize-typescript": "^1.0.0",
     "supertest": "^4.0.2",
     "typegoose": "^5.9.0",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "yargs-parser": ">=13.1.2"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.27",
