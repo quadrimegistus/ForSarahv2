@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/parallelam/ForSarahv2#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bcrypt": "^5.0.0",
     "class-validator": "^0.10.0",
     "cors": "^2.8.5",
