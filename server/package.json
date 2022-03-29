@@ -27,7 +27,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.2.0",
     "http-errors": "^1.7.3",
-    "minimist": ">=0.2.1",
+    "minimist": ">=1.2.6",
     "mongodb": "^3.3.2",
     "mongoose": "^5.7.5",
     "mquery": ">=3.2.3",
